@@ -1,0 +1,51 @@
+{
+  "firestore": {
+    "database": "(default)",
+    "location": "nam5",
+    "rules": "firestore.rules",
+    "indexes": "firestore.indexes.json"
+  },
+  "storage": {
+    "rules": "storage.rules"
+  },
+  "database": {
+    "rules": "database.rules.json"
+  },
+  "flutter": {
+    "platforms": {
+      "android": {
+        "default": {
+          "projectId": "madelines-store",
+          "appId": "1:1021261635615:android:be6576b3c59068b0c8352a",
+          "fileOutput": "android/app/google-services.json"
+        }
+      },
+      "dart": {
+        "lib/firebase_options.dart": {
+          "projectId": "madelines-store",
+          "configurations": {
+            "android": "1:1021261635615:android:be6576b3c59068b0c8352a",
+            "ios": "1:1021261635615:ios:0a48484cc9c69875c8352a",
+            "macos": "1:1021261635615:ios:0a48484cc9c69875c8352a",
+            "web": "1:1021261635615:web:f595af8cba7ba085c8352a",
+            "windows": "1:1021261635615:web:9a0662efab7b0472c8352a"
+          }
+        }
+      }
+    }
+  },
+  "hosting": {
+    "public": "public",
+    "ignore": [
+      "firebase.json",
+      "**/.*",
+      "**/node_modules/**"
+    ],
+    "rewrites": [
+      {
+        "source": "**",
+        "destination": "/index.html"
+      }
+    ]
+  }
+}

@@ -1,0 +1,24 @@
+{
+  "name": "my_store_admin_pane",
+  "version": "1.0.0",
+  "description": "madelines_store",
+  "homepage": "https://github.com/ayende39/my_store_admin_panel#readme",
+  "bugs": {
+    "url": "https://github.com/ayende39/my_store_admin_panel/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ayende39/my_store_admin_panel.git"
+  },
+  "license": "ISC",
+  "author": "",
+  "type": "commonjs",
+  "main": "index.js",
+  "directories": {
+    "lib": "lib",
+    "test": "test"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  }
+}

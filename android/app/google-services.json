@@ -1,0 +1,49 @@
+{
+  "project_info": {
+    "project_number": "1021261635615",
+    "firebase_url": "https://madelines-store-default-rtdb.firebaseio.com",
+    "project_id": "madelines-store",
+    "storage_bucket": "madelines-store.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1021261635615:android:be6576b3c59068b0c8352a",
+        "android_client_info": {
+          "package_name": "com.example.my_store_admin_pane"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBs50HH4kbZIRbrlmQjTUdfImbp1u8nAGQ"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1021261635615:android:4709a6664b8a747fc8352a",
+        "android_client_info": {
+          "package_name": "com.example.my_store_app"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBs50HH4kbZIRbrlmQjTUdfImbp1u8nAGQ"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
