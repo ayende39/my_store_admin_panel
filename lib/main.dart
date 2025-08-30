@@ -8,7 +8,7 @@ import 'screens/home_page.dart';
 void main() async {
   WidgetsFlutterBinding.ensureInitialized();
   await FirebaseConfig.init();
-  
+
   runApp(const AdminPanelApp());
 }
 
