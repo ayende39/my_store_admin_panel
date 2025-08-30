@@ -2,6 +2,9 @@
   "name": "my_store_admin_pane",
   "version": "1.0.0",
   "description": "madelines_store",
+  "keywords": [
+    "admin"
+  ],
   "homepage": "https://github.com/ayende39/my_store_admin_panel#readme",
   "bugs": {
     "url": "https://github.com/ayende39/my_store_admin_panel/issues"
@@ -11,7 +14,7 @@
     "url": "git+https://github.com/ayende39/my_store_admin_panel.git"
   },
   "license": "ISC",
-  "author": "",
+  "author": "jose",
   "type": "commonjs",
   "main": "index.js",
   "directories": {
